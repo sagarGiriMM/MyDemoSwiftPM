@@ -1,6 +1,16 @@
-public struct MyDemoSwiftPM {
-    public private(set) var text = "Hello, World!"
+//
+//  MyDemoSwiftPM.swift
+//
+//
+//  Created by Sagar on 27/09/22.
+//
 
-    public init() {
+import SwiftUI
+
+@available(iOS 13.0,*)
+public struct MyDemoSwiftPM: View {
+    public var body: some View {
+        Text("This is SwiftUI from the Package")
     }
 }
+
