@@ -9,6 +9,9 @@ import SwiftUI
 
 @available(iOS 13.0,*)
 public struct MyDemoSwiftPM: View {
+
+    public init() { }
+
     public var body: some View {
         Text("This is SwiftUI from the Package")
     }
